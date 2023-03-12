@@ -7,7 +7,7 @@
     height: 100vh;
     width: 100%;
   background-size: cover;
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/background\ \(2\).jpg);
   z-index: 1;
 }
 nav{
@@ -98,6 +98,39 @@ right: 6px;
 span{
     color:rgb(143, 10, 10);
 }
+/*-----------projects------*/
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 79, 79, 0.712);
+    color:chocolate;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+}
+.wall {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: animate 16s ease-in-out infinite;
+    background-size: cover;
+}
+
+
+
+
 /*-----------about------------*/
 #about{
     padding: 80px o;
